@@ -1,0 +1,67 @@
+html{
+	position: absolute;
+	height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+	background-color: black;
+	font-family: Lato;
+}
+
+body{
+	position: absolute;
+	height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+	display: flex-inline;
+	background-color: black;
+}
+
+h1{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	margin: 1% 0 0 0;
+}
+
+.container{
+	margin: 1% 5% 0 5%;
+	border: 5px white solid;
+	width: 90%;
+	height: 75%;
+}
+
+#row1 .selected, #row2 .selected, #row3 .selected{
+	opacity: 1;
+}
+
+#row1, #row2{
+	display: flex;
+	flex-wrap: wrap;
+	height: 33%;
+	margin: 0 0.5%;
+	padding: 0;
+	width: 100%;
+}
+
+#row3{
+	display: flex;
+	flex-wrap: wrap;	
+	height: 33%;
+	margin: 0 2%;
+	padding: 0;
+	width: 100%;
+}
+
+#row1 img, #row2 img{
+	width: 11%;
+	opacity: 0.05;
+	transition: opacity 0.2s ease;
+}
+
+#row3 img{
+	width: 12%;
+	opacity: 0.05;
+	transition: opacity 0.2s ease;
+}
